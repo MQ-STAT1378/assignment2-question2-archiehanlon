@@ -1,0 +1,32 @@
+---
+output: github_document
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  out.width = "100%"
+)
+```
+
+# Bankmodels
+
+The goal of bankmodels is to simulate bank queuing systems.
+
+## Download
+
+To download the development version from Github, run:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("archiehanlon/bankmodels")
+```
+
+## Example
+
+Here is an example using the pre-installed bank data set:
+
+```{r example, include=TRUE}
+library("bankmodels")
+Multiserver(bank$arrival_time, bank$service_time, 1)
+```
