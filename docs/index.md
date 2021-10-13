@@ -9,7 +9,7 @@ To download the development version from Github, run:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("archiehanlon/bankmodels")
+devtools::install_github("MQ-STAT1378/assignment2-question2-archiehanlon")
 ```
 
 ## Functions
