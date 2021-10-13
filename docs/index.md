@@ -29,8 +29,9 @@ also contains it's own help page (*?bank*).
 
 Here is an example using the pre-installed bank data set:
 
-`library("bankmodels")
+```
+library("bankmodels")
 Multiserver(bank$arrival_time, bank$service_time, 1)
-`
+```
 
 ENJOY!!!
