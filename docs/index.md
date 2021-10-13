@@ -1,37 +1,15 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/MQ-STAT1378/assignment2-question2-archiehanlon/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+I have created a package called **'bankmodels'** that is able to take input vectors for the arrival and service times of customers 
+in a 'n'servered system and output the waiting times and server used within the queuing system. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This is achieved with the function:
+- Multiserver()
 
-### Markdown
+that has it's own help page (accessed through *?multiserver*)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MQ-STAT1378/assignment2-question2-archiehanlon/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Within the package there is an imported dataset named **"bank"** which simulates these times using the exponential distribution. It
+also contains it's own help page (*?bank*)
+library("Multiserver")
+Multiserver(bank$arrival_time, bank$service_time, 1)
+ENJOY!
