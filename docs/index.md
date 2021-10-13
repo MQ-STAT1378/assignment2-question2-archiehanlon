@@ -36,4 +36,4 @@ Multiserver(bank$arrival_time, bank$service_time, 1)
 
 ENJOY!!!
 
-T Azza Hanlon
+\textcopyright Azza Hanlon
