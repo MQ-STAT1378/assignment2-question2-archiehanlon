@@ -1,0 +1,22 @@
+Package: bankmodels
+Title: Simulating Bank Queuing Systems
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Archie",
+           family = "Hanlon",
+           role = c("aut", "cre"),
+           email = "archie.hanlon@students.mq.edu.au",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Enables users to input arrival and service times of customers in single or multi-server bank queuing system and output a formatted data frame containing the arrival time, chosen server and the service beginning and ending times of each customer.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    tibble
+Depends: 
+    R (>= 2.10)
