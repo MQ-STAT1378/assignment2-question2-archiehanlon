@@ -30,3 +30,8 @@ Here is an example using the pre-installed bank data set:
 library("bankmodels")
 Multiserver(bank$arrival_time, bank$service_time, 1)
 ```
+
+## Website
+To access my website which contains more information about this package, click [here](https://mq-stat1378.github.io/assignment2-question2-archiehanlon/)
+
+ENJOY!!!

@@ -1,3 +1,4 @@
+
 # Bankmodels
 
 The goal of bankmodels is to simulate bank queuing systems.
@@ -29,3 +30,11 @@ Here is an example using the pre-installed bank data set:
     ##  9     531.          994.            1       1225.
     ## 10     628.         1225.            1       1331.
     ## # ... with 90 more rows
+
+## Website
+
+To access my website which contains more information about this package,
+click
+[here](https://mq-stat1378.github.io/assignment2-question2-archiehanlon/)
+
+ENJOY!!!
